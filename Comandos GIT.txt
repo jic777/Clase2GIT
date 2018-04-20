@@ -1,0 +1,13 @@
+mkdir - Crear carpeta (make directory)
+cd    - Ir a carpeta
+clear - limpiar terminal
+ls    - ver lista de archivos y carpeta
+
+git init   - inicializar repositorio GIT en la carpeta posicionada
+git status - te muestra estado del repositorio y archivos no añadidos
+git commit -m"Nombre que quiero darle a la version" - confirmar cambios
+
+git config --global user.email "you@example.com" //Define mi email
+git config --global user.name "Nombre" //Define mi nombre
+
+git log - Registro de modificaciones
