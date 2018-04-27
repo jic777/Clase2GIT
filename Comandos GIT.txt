@@ -5,9 +5,21 @@ ls    - ver lista de archivos y carpeta
 
 git init   - inicializar repositorio GIT en la carpeta posicionada
 git status - te muestra estado del repositorio y archivos no añadidos
+git add    - agregamos archivo al area de staging
 git commit -m"Nombre que quiero darle a la version" - confirmar cambios
 
 git config --global user.email "you@example.com" //Define mi email
 git config --global user.name "Nombre" //Define mi nombre
 
 git log - Registro de modificaciones
+git log --oneline - resumen de Registro de modificaciones
+
+git checkout -- nombre.archivo //Vuelve a la version mas "Confirmada"
+
+git diff - Muestra las diferencia entre el archivo que le pidan
+
+creamos un archivo ".gitignore" para que el git ignore los archivos que estan escrito adentro
+
+git mv nombre nombre2 - cambia de nombre un archivo y lo pone en staging esperando el commit
+
+git rm nombre - remueve archivo
