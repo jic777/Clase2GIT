@@ -23,3 +23,14 @@ creamos un archivo ".gitignore" para que el git ignore los archivos que estan es
 git mv nombre nombre2 - cambia de nombre un archivo y lo pone en staging esperando el commit
 
 git rm nombre - remueve archivo
+
+git remote add origin "link" //Añadirme al github creado
+git push origin master //meter mis archivos locales commiteados, al github
+
+git pull origin master  //Bajar los cambios que hacen otros y actualiza mi contenido
+
+git fetch origin master //baja los cambios pero no actualiza
+
+git branch nombre  //Crear una rama de desarrollo
+
+git checkout nombreRama //Cambia de rama
